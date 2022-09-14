@@ -23,7 +23,7 @@ class Person:
 	def get_age(self):
 		return self.__age
 
-	# getters
+	# setters
 	def set_firstname(self, firstname):
 		if len(strip(firstname)) >= 3:
 			self.__firstname = strip(firstname)
