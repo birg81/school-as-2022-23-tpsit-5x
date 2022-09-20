@@ -12,7 +12,7 @@ Sviluppare una funzione che
 - nel caso in cui uno dei due addendi sia non positivo, questi verrà posto a zero
 - i parametri formali della funzione devono anche prevedere valori di default
 ------------------------------------------------------------------
-PREREQUISII TEORICI
+PREREQUISITI TEORICI
 - definizione di funzione
 - strutture decisionali
 - operazioni di stampa
