@@ -1,36 +1,23 @@
 '''
-Creare una funzione che
-- in ingresso prende come argomento una stringa
-- in uscita fornisca un dizionario
-	- che ha per chiavi le lettere contenute nella stringa di ingresso
-	- per valori i numeri di occorrenza di tali lettere
-------------------------------------------------------------------
-PREREQUISITI TEORICI:
-- Stringhe, indexing, funzioni built-in sulle stringhe
-- Dizionari
-- Definizione di una funzione
-- Iterazioni
-- Strutture decisionali
-------------------------------------------------------------------
-ESEMIO
-INPUT:
-	"CIAO ANNA"
-OUTPUT:
-	{'C': 1, 'I': 1, 'A': 3, 'O': 1, 'N':2}
+Creare una funzione che data una stringa fornisce un dizionario con le occorenze delle  diverse lettere
 '''
 
 # funzione che effettua il conteggio
 def lettersCounter(word = ''):
-	# dizionario che contiene le lettere e le loro occorrenze
+# dizionario che contiene le lettere e le loro occorrenze
 	counting = {}
-	# questa funzione sostituisce i caratteri. Usata per eliminare gli spazi
-	word = word.replace(" ", "")
-'''
-si scorre la stringa lettera per lettera, memorizzandole in l
-se l è già presente nel dizionario, il valore viene incrementato
-altrimenti si crea una nuova chiave con valore 1
-'''
-	for l in word:
+# - .lower() -> trasforma la stringa in caratteri miniscoli
+# - .replace() -> sostituisce i caratteri
+# Il ciclo scorre la stringa tutta minuscola
+# (conteggio case-insensitive)
+# ripulita dagli spazi;
+# scorrendola lettera per lettera e
+# memorizzando la specifica lettera nella variabile l
+# l rappresenta l'indice del dizionario.
+# Qualora l'indice l del dizionario fosse già presente,
+# il valore viene incrementato,
+# altrimenti il valore viene posto ad 1
+	for l in word.lower().replace(" ", ""):
 		if l in counting:
 			counting[l] += 1
 		else:
@@ -38,3 +25,6 @@ altrimenti si crea una nuova chiave con valore 1
 	return counting
 
 print(lettersCounter('Forza Napoli'))
+
+# OUTPUT:
+# {'f': 1, 'o': 2, 'r': 1, 'z': 1, 'a': 2, 'n': 1, 'p': 1, 'l': 1, 'i': 1}
