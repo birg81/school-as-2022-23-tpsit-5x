@@ -11,7 +11,7 @@ this file describe how-to python
 import json
 
 # open a json file
-f = open('data.json')
+f = open('personList.json')
 
 # convert textfile in dictionary
 people = json.load(f)
