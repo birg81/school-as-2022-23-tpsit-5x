@@ -12,8 +12,8 @@ def lettersCounter(world = ''):
 	#dizionario che contiene le lettere le occorrenze
 	counting = {}
 '''
-si scorre la stringa lettera per lettera, memorizzandole in la
-se l è già presente nel dizionario il valore viene incrementato
+si scorre la stringa lettera per lettera, memorizzandole in l
+se l è già presente nel dizionario, il valore viene incrementato
 altrimenti si crea una nuova chiave con valore 1
 '''
 	for l in world:
