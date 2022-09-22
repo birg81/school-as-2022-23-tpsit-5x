@@ -16,6 +16,9 @@ if len(sys.argv) > 1:
 else:
 	# se non ho inserito parametri chiedo il messaggio in input
 	msg = input('Insert your message: ').strip()
+	# se il messaggio è vuoto o con spazi ne chiede uno valido
+	while len(msg.strip()) == 0:
+		input('Insert a valid message: ').strip()
 
 # stampo dunque sia il messaggio originale
 # sia il messaggio codificato
