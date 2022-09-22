@@ -1,9 +1,7 @@
+# README
 In questa sede vengono presentati due esempi che rispondono alle seguenti tracce:
 
-------------------------------------------------------------------
-------------------------------------------------------------------
-
-
+## sumPositive.py - Somma numeri positivi
 FILE: ./sumPositive.py
 
 Sviluppare una funzione che
@@ -18,16 +16,17 @@ PREREQUISITI TEORICI
 - operazioni di stampa
 - utilizzo di stringhe interpolate
 ------------------------------------------------------------------
+
 ESEMPIO
 INPUT: a = 3, b = -7
 OUTPUT: 3 + -7 = 3
-------------------------------------------------------------------
+
 ------------------------------------------------------------------
 
-
+## lettersCounting.py - Conta la frequenza di lettere in una stringa
 FILE: ./lettersCounting.py
 
-Creare una funzione che
+Creare una funzione che:
 - in ingresso prende come argomento una stringa
 - in uscita fornisca un dizionario
 	- che ha per chiavi le lettere contenute nella stringa di ingresso
@@ -40,7 +39,7 @@ PREREQUISITI TEORICI:
 - Iterazioni
 - Strutture decisionali
 ------------------------------------------------------------------
-ESEMIO
+ESEMPIO
 INPUT:
 	"ciao anna"
 OUTPUT:
