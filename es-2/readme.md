@@ -14,6 +14,7 @@ In tale crifrario ogni lettera del messaggio viene traslata in avanti di 3 posiz
 - Funzioni built-in su stringhe
 - Strutture decisionali
 - richiesta di input
+- Utilizzo di moduli
 ---------------------------------------------------------------------------------------
 
 # ESEMPIO
