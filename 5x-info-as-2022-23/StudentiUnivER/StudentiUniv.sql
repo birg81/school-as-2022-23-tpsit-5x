@@ -58,3 +58,20 @@ CREATE TABLE IF NOT EXISTS Exams (
 INSERT INTO Exams(fk_stud, fk_subject, grade) VALUES
 (3, 2, 18),
 (1, 1, 20);
+
+
+
+-- Q selezionare studente esame e materie
+SELECT
+	s.firstname,
+    s.lastname,
+    e.grade,
+    e.dt AS data,
+    m.courseName as Materia
+FROM
+	students AS s,
+    exams AS e,
+    subjects as m
+WHERE
+	s.id = e.fk_stud AND
+    e.fk_subject = m.id;
