@@ -8,3 +8,4 @@ I dati nella base di dati sono puramente casuali e fanno riferimento a nomi e/o 
 Si consiglia allo studente, sulla scorta dei dati forniti, di popolare ulteriormente la base di dati al fine di poter testare il DB con ulteriori interrogazioni.
 
 ### Particolarmente interessante sono le due interrogazioni proposte
+lo studente controlli con molta attenzione i tempi per eseguire le due query, quella con join e senza join poi valuti con ponderazione quale delle due conviene adoperare
