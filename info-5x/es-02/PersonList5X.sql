@@ -11,7 +11,7 @@ CREATE TABLE Zodiac (
 	fromDate	DATE	NOT NULL	DEFAULT CURRENT_DATE,
 	toDate	DATE	NOT NULL	DEFAULT CURRENT_DATE,
 	UNIQUE(name)
-)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO Zodiac(fromDate, toDate, name, kind) VALUES
 	(CONCAT(YEAR(NOW()), '-03-21'),	CONCAT(YEAR(NOW()), '-04-19'),	'Aries',	'fire'),
@@ -36,7 +36,7 @@ CREATE TABLE Blood(
 	rh	ENUM('-', '+')	NOT NULL	DEFAULT '-',
 	-- chiave candidata
 	UNIQUE(kind, rh)
-)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO Blood(kind, rh) VALUES
 	('A',	'-'),
@@ -62,7 +62,7 @@ CREATE TABLE Cities (
 	UNIQUE(name, country),
 	UNIQUE(zipcode, code),
 	UNIQUE(code)
-)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO Cities(zipcode, code, name, country) VALUES
 	(80053,	'C129',	'Castellammare di Stabia',	'NA'),
