@@ -1,8 +1,10 @@
 # Introduzione
+<img align="right" src="https://t3.ftcdn.net/jpg/05/06/86/60/240_F_506866064_lNmNXAjVqAHLIggNBVij9dcm6TJ8TQor.jpg" height="150px" />
 A seguire lo studente dovrà svolgere le seguenti interrogazioni. Pertanto il docente propone una sfida alla quale ogni 10 query si scatta di livello.
 
 Alcune query prevederanno un livello semplice ed uno avanzato, solitamente indicando nelle specifiche, se non indicato si intende che la query avanzata si distingue perché scritta in versione pro ovvero scritta con una corretta indentazione, facendo uso di alias sui nomi dei campi e delle tabelle, ordinando le istanze con il giusto criterio, adoperando join ove previsto e query annidate
-Buon Lavoro
+
+*Buon Lavoro*
 
 ## Lista Query
 ### Q1
@@ -25,6 +27,9 @@ Elencare gli uomini la cui altezza è compresa tra 165 e 171 (estremi compresi, 
 Elencare le donne che hanno nel codice fiscale una I nell’ultima lettera
 ### Q10
 Elencare le generalità degli uomini che nel loro nome non hanno la lettera O
+
+<img align="right" src="https://t4.ftcdn.net/jpg/01/96/75/59/240_F_196755933_6T0jRKuPz4zdKMNtn6WCzaA1TbmpJuRG.jpg" height="75px" />
+
 ### CABALLERO:
 Se sei arrivato fino a qui o se hai svolto almeno 10 query puoi auto riconoscerti il grado di **Caballero**
 ### Q11
@@ -48,6 +53,7 @@ Selezionare per ogni città, le informazioni catastali, inoltre anche il numero 
 ### Q20
 Elencare le città della prov di Napoli che non contengono la O nel loro nome; visualizzando dunque: città, provincia, CAP, codice, ordinandole per CAP
 ### CABALLERO BAILANTE
+<img align="right" src="https://t3.ftcdn.net/jpg/01/36/15/92/360_F_136159254_4B59C8Lm85A8uIMqyAXaeb5Rwrr0LTmF.webp" height="75px" />
 Sembrerebbe che ci stai prendendo gusto!
 
 Se hai concluso almeno 20 query puoi appellarti il titolo di **Caballero Bailante!**
