@@ -64,3 +64,7 @@ Se hai concluso almeno 20 query puoi appellarti il titolo di **Caballero Bailant
 
 Quindi continua ma a tuo discapito
 	*¡Señor, salva las almas de estos pobres malditos Caballeros!*
+### Q21
+Work in progress
+### CABALLERO LOCO
+<img align="right" src="https://us.123rf.com/450wm/yupiramos/yupiramos1904/yupiramos190438645/122872876-mexican-hat-with-mustache-design-vector-illustration.jpg?ver=6" height="100px" />
