@@ -16,7 +16,9 @@ Elencare le generalità dei primi 10 uomini più alti della lista
 ### Q4
 Elencare le generalità delle 5 donne più magre della lista
 ### Q5
-Elencare le generalità (anche altezza, peso e IMC) delle persone dalla più magra alla più grassa (si calcoli l’indice di massa corporea IMC = Peso [kg] / {altezza[m]}^2)
+Elencare le generalità (anche altezza, peso e IMC) delle persone dalla più magra alla più grassa
+
+*si calcoli l’indice di massa corporea* $$IMC = 10^4 \cdot {weight \over height^2}$$
 ### Q6
 Ripetere la query precedente escludendo le persone sovrappeso o quelle sottopeso, ovvero selezionare solo quelle normopeso, quindi con IMC > 18.5 e IMC <= 25.0
 ### Q7
