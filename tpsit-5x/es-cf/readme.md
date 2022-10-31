@@ -1,0 +1,3 @@
+# Disclaimer
+<img align="right" src="https://www.lentepubblica.it/wp-content/uploads/2014/04/codice-fiscale.png" height="75px" />
+In this repository there is a code for the calculation of the Italian fiscal code. There is also a csv file that contains the list of Italian municipalities and related codes (Code Belfiore). Using these functions it will be possible to both develop and check the fiscal code (reverse fiscal code)
