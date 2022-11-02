@@ -20,8 +20,8 @@ def codeDate(bday = '2000-01-01', isMale = True):
 def codePlace(city = ''):
 # this function loads codes from a file and searches for the code by city name
 	for c in open('elencoComuniAttuali_20221011.csv').read().split('\n'):
-		if c.split(';')[1] == city.upper():
-			return c.split(';')[0]
+		if c.split(',')[1] == city.upper():
+			return c.split(',')[0]
 	return 'Z999'
 
 def codeCheck(code):
