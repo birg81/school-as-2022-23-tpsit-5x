@@ -69,6 +69,6 @@ Quindi continua ma a tuo discapito
 ### Q21
 Elencare le generalità delle persone, dove queste sono nate, dove vivono e dove lavorano.
 ### Q22
-dalla query *Q21* elencare solo le persone che hanno a che fare con Castellammare (ovvero sono nate in questo posto o vi hanno vissuto o vi hanno lavorato)
+dalla query **Q21** elencare solo le persone che hanno a che fare con Castellammare (ovvero sono nate in questo posto o vi hanno vissuto o vi hanno lavorato)
 ### CABALLERO LOCO
 <img align="right" src="https://us.123rf.com/450wm/yupiramos/yupiramos1904/yupiramos190438645/122872876-mexican-hat-with-mustache-design-vector-illustration.jpg?ver=6" height="100px" />
