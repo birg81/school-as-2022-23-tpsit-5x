@@ -4,7 +4,8 @@ CREATE DATABASE IF NOT EXISTS PersonList5X
 USE PersonList5X;
 
 -- segno zodiacale
-CREATE TABLE Zodiac (
+DROP TABLE IF EXISTS Zodiac;
+CREATE TABLE IF NOT EXISTS Zodiac (
 	id	INT	PRIMARY KEY	AUTO_INCREMENT,
 	name	VARCHAR(12)	NOT NULL,
 	kind	ENUM('fire', 'earth', 'air', 'water')	NOT NULL,
@@ -28,7 +29,8 @@ INSERT INTO Zodiac(fromDate, toDate, name, kind) VALUES
 	(CONCAT(YEAR(NOW()), '-02-20'),	CONCAT(YEAR(NOW()), '-03-20'),	'Pisces',	'water');
 
 -- Gruppo sanguineo
-CREATE TABLE Blood (
+DROP TABLE IF EXISTS Blood;
+CREATE TABLE IF NOT EXISTS Blood (
 	id	INT	PRIMARY KEY	AUTO_INCREMENT,
 	-- gruppo sanquineo
 	kind	ENUM('A', 'B', 'O', 'AB')	NOT NULL	DEFAULT 'O',
@@ -49,7 +51,8 @@ INSERT INTO Blood(kind, rh) VALUES
 	('AB',	'+');
 
 -- Città in elenco
-CREATE TABLE Cities (
+DROP TABLE IF EXISTS Cities;
+CREATE TABLE IF NOT EXISTS Cities (
 	id	INT	PRIMARY KEY	AUTO_INCREMENT,
 	name	VARCHAR(30) NOT NULL,
 	-- provincia
@@ -159,7 +162,8 @@ INSERT INTO Cities(zipcode, code, name, country) VALUES
 	(80070,	'F488',	'Monte di Procida',	'NA');
 
 -- Sesso: forse codificheremo anche persone di sesso non binario
-CREATE TABLE Gender (
+DROP TABLE IF EXISTS Gender;
+CREATE TABLE IF NOT EXISTS Gender (
 	id	INT	PRIMARY KEY	AUTO_INCREMENT,
 	kind	CHAR(1)	NOT NULL	DEFAULT 'm',
 
@@ -171,7 +175,8 @@ INSERT INTO Gender(kind) VALUES
 	('f');
 
 -- Persone
-CREATE TABLE People (
+DROP TABLE IF EXISTS People;
+CREATE TABLE IF NOT EXISTS People (
 	id	INT	PRIMARY KEY	AUTO_INCREMENT,
 	lastname	VARCHAR(18)	NOT NULL,
 	firstname	VARCHAR(18)	NOT NULL,
@@ -304,7 +309,8 @@ INSERT INTO People(lastname, firstname, code, gender, birthday, height, weight, 
 	('Schettino',	'Paola',	'SCHPLA99M58C361H',	2,	'1999-08-18',	172,	64.7,	4,	'+393356197966',	68);
 
 -- Residenza e cambio residenza
-CREATE TABLE Place2Live (
+DROP TABLE IF EXISTS Place2Live;
+CREATE TABLE IF NOT EXISTS Place2Live (
 	id	INT	PRIMARY KEY	AUTO_INCREMENT,
 	-- chiave esterna alla specifica persona
 	people	INT	NOT NULL,
@@ -419,7 +425,8 @@ INSERT INTO Place2Live(people, place, dt) VALUES
 	(90,	67,	'2018-01-01');
 
 -- Luoghi in cui si lavora o in cui si ha lavorato
-CREATE TABLE Place2Job (
+DROP TABLE IF EXISTS Place2Job;
+CREATE TABLE IF NOT EXISTS Place2Job (
 	id	INT	PRIMARY KEY	AUTO_INCREMENT,
 	-- chiave esterna alla specifica persona
 	people	INT	NOT NULL,
