@@ -1,0 +1,19 @@
+{# draw circle #}
+{% extends 'mainView.html' %}
+{% block bodyOfPage %}
+{{rows}} &times; {{cols}}
+<table>
+{% for i in range(rows) %}
+<tr>
+{% for j in range(cols) %}
+<td
+	onmouseover="this.innerHTML='&#x1f7e1;'"
+	onmouseout="this.innerHTML='&#x1f7e0;'"
+>
+	&#x1f535;
+</td>
+{% endfor %}
+</tr>
+{% endfor %}
+</table>
+{% endblock bodyOfPage %}
