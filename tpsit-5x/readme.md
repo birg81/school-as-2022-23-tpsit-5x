@@ -7,3 +7,5 @@ In questo repository verranno riportati in buona sostanza gli spezzoni di codice
 * cartella [```/es-04```](./es-04): **OOP** in python
 * cartella [```/es-05```](./es-05): **file** - wordprocessor
 * cartella [```/es-06```](./es-06): **file csv** - and **matplotlib**
+* cartella [```/es-07```](./es-07): **Stream Socket** C/S app con send/recv messages & **SimpleHTML Server**
+* cartella [```/es-08```](./es-08): **fastAPI** full basic example
