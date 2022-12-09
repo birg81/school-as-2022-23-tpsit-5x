@@ -52,6 +52,7 @@ def index():
 <li><a href="./info/?param1=1st+param&param2=2nd+param">&#x2754;</a></li>
 <li><a href="./welcome?title=blue+circle&rows=23&cols=54">&#x1f535;</a></li>
 <li><a href="./sql/">&#x1f4c7;</a></li>
+<li><a href="./tombola/">&#x1f385;</a></li>
 {''.join(['<li>'+str(d)+'</li>' for d in w]).upper()}
 {'<li>Forza Napoli &#x1f499;</li>'*3}
 </ul>
@@ -141,6 +142,25 @@ def loadSQLfil():
 	con.close()
 
 	return json
+
+@webapp.get('/tombola', response_class=HTMLResponse)
+async def tombola(req: Request):
+	import random as r
+	from datetime import datetime as dt
+
+	lst = [i for i in range(1,91)]
+	r.shuffle(lst)
+
+	return templates.TemplateResponse(
+		'tombola.html',
+		{
+			'request': req,
+			'title': 'Tombola &#x1f385;',
+			'numbers': lst[0:15],
+			't': f'{dt.now().strftime("%H:%M:%S")}',
+			'cardserie': int(10_000 * r.random())
+		}
+	)
 
 '''
 if __name__ == '__main__':
