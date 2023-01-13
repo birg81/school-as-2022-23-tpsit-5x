@@ -5,7 +5,7 @@ PORT = 12345
 
 s = socket.socket()		# socket.AF_INET, socket.SOCK_STREAM)
 
-print(f'''TCP Server Listening on {HOST}:{PORT}..''')
+print(f'TCP Server Listening on {HOST}:{PORT}..')
 
 s.bind((HOST, PORT))
 s.listen(1)
@@ -14,7 +14,7 @@ isWorking = True
 while isWorking:
 	con, addr = s.accept()
 	msg = con.recv(16).decode()
-	print (f'''{addr[0]}:{addr[1]} << "{msg}"...''')
+	print (f'[{addr[0]}:{addr[1]}] << "{msg}"...')
 	isWorking = 'end' not in msg.lower()
 
 con.close()
