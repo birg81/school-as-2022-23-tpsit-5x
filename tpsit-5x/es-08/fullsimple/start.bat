@@ -11,6 +11,7 @@ set PORT=80
 set PYTHON=python
 set BROWSER="C:\Program Files\Vivaldi\Application\vivaldi.exe"
 
+:updatingchecking
 CLS
 REM *** Controllo esistenza dei moduli necessari ***
 echo Check packages..
@@ -27,8 +28,10 @@ for %%i in (%modules%) do (
 )
 endlocal
 
+:browserlaunching
 REM *** Apre il browser ***
 %BROWSER% "http://%HOST:~1%:%PORT%/"
 
+:startfastapi
 REM *** Avvia FastAPI ***
 %PYTHON% -m uvicorn %FILE%:%APP% --reload --host 0.0.0.0 --port %PORT% --http httptools %PARAM%
