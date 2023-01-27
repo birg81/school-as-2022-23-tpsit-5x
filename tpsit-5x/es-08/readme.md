@@ -12,7 +12,10 @@
 </tr>
 </table>
 
-# FastAPI (test)
+
+# FastAPI
+
+## Introduzione sugli esempi proposti
 
 Questa cartella propone due esempi, uno [```/generico```](./generic) il quale contiene tutto il codice generalista, ed uno molto più [```/specifico```](./fullsimple).
 All'interno di ognuno dei due esempi vi è un file batch che ha lo scopo di avviare velocemente la webapp creata senza dover ricordare la lista completa di comandi da fornire nella CLI.
