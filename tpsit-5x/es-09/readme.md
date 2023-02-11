@@ -9,5 +9,5 @@ L’esempio è particolarmente significativo perché propone un **CRUD** complet
 
 In questa cartella verranno mostrati differenti approcci:
 
-* [```prima versione```](./shoppinglist-v1.x) adopera rotte che restituiscono pagine html, analizza le variabili nel URL ed adopera per semplicità solo il metodo GET; non fa uso degli url per analizzare i parametri.
-* [```seconda versione```](./shoppinglist-v2.x) crea un CRUD usando i protocolli appropriati, quindi non solo il GET, si relega FastAPI a svolgere il semplice ruolo di avvio della pagina principale e WebAPI, spostando il carico di lavoro verso il client-side, adoperando Vanilla javaScript per creare in effetti una **SPA** (single page application).
+* [```ver. 1.x```](./shoppinglist-v1.x) adopera rotte che restituiscono pagine html, analizza le variabili nel URL ed adopera per semplicità solo il metodo GET; non fa uso degli url per analizzare i parametri.
+* [```ver. 2.x```](./shoppinglist-v2.x) crea un CRUD usando i protocolli appropriati, quindi non solo il GET, si relega FastAPI a svolgere il semplice ruolo di avvio della pagina principale e WebAPI, spostando il carico di lavoro verso il client-side, adoperando Vanilla javaScript per creare in effetti una **SPA** (single page application).
