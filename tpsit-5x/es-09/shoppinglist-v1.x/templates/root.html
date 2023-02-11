@@ -8,8 +8,8 @@
 </head>
 <body>
 <script src="{{url_for('static', path='/src/js/script.js')}}"></script>
-<form method="GET" action="create">
-<input type="search" name="item" />
+<form method="GET" action="./create">
+<input type="search" name="item" placeholder="insert item" />
 <input type="submit" value="&#x1f6d2;" />
 </form>
 <ul>{% for id, item in itemsList : %}
