@@ -1,4 +1,4 @@
-![img](./shoppinglist-v1.x/static/src/img/shopping-chart.png)
+![img](https://em-content.zobj.net/thumbs/120/twitter/348/shopping-cart_1f6d2.png)
 
 # Shopping List
 
