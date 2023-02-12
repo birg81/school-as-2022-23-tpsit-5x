@@ -31,12 +31,11 @@ function check_modules {
 			echo -e "[\e[33m$i\e[0m] \e[31mNot found\e[0m, installing .."
 			$PYTHON -m pip install $i
 		else
-			echo -e "[\e[33m$i\e[0m] \e[32mjust installed\e[0m .."
+			echo -e "[\e[33m$i\e[0m] \e[32malready\e[0m installed.."
 		fi
 	done
 }
 # check_modules "httptools uvicorn fastapi jinja2"
-
 
 # run your favorite browser on your local ip address
 xdg-open "http://$HOST:$PORT/" &
