@@ -1,7 +1,9 @@
 @echo off
 REM file: start.bat
-:configuring
 cd %~dp0
+CLS
+
+:configuring
 REM remove old cache
 rmdir /s /q .\__pycache__
 REM append other missing parameters Ex: --no-use-colors
@@ -20,7 +22,6 @@ REM goto browserlaunching
 
 :updatingchecking
 REM *** checked and install your missing python modules ***
-CLS
 echo Check packages..
 setlocal
 set modules=httptools uvicorn fastapi jinja2
