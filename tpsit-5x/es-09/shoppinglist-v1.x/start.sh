@@ -28,7 +28,7 @@ function check_modules {
 	for i in "$1" do
 		if ! $PYTHON -m pip show $i > /dev/null 2>&1;
 		then
-			echo -e "[\e[33m$i\e[0m] \e[31mNot found\e[0m, installing .."
+			echo -e "[\e[33m$i\e[0m] \e[31mNot found\e[0m, installing.."
 			$PYTHON -m pip install $i
 		else
 			echo -e "[\e[33m$i\e[0m] \e[32malready\e[0m installed.."
