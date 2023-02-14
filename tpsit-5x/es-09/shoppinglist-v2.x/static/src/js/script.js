@@ -3,7 +3,7 @@
 // print items on Html page
 const updatePageData = async (outTag = 'app') => {
 	const itemsList = await loadItems();
-	console.log(itemsList);
+	// console.log(itemsList);
 	document.querySelector(outTag).innerHTML = itemsList.length === 0
 		? `
 			<div>
