@@ -24,6 +24,10 @@ def codePlace(city = ''):
 			return c.split(',')[0]
 	return 'Z999'
 
+def placeDictionary():
+# this function return a disctionary with zip code as key and city as value
+	return {c.split(',')[0]:c.split(',')[1] for c in open('elencoComuniAttuali_20221011.csv').read().split('\n')}
+
 def codeCheck(code):
 # this function returns the check char (called CIN)
 	check = [
