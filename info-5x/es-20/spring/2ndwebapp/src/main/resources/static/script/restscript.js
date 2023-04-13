@@ -46,6 +46,20 @@ const personList = async () => await fetch('./api/people')
 	.catch(e => console.err(e))
 	.then(j => j.length === 0 ? [] : j.sort((p1, p2) => (p1.lastname > p2.lastname) ? 1 : -1));
 
+// UPDATE
+/*
+Sorry but something was wrong.
+Maybe later you could find a right code.
+Now not yet!
+
+If you want an early right code, try to move your finghers on keybord and fell craziness will begen in your head!
+This is a good way to develop a nice code or begen a crazy programmer!
+
+Good Luck, Programmer!
+
+You must a good programmer and you must proud of your wrongs
+*/
+
 // DELETE
 const removePerson = async (id = -1) => {
 	const res = await fetch(`./api/people/${id}`, {method: 'DELETE'})
