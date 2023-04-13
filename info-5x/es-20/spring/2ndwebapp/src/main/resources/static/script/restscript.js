@@ -49,15 +49,15 @@ const personList = async () => await fetch('./api/people')
 // UPDATE
 /*
 Sorry but something was wrong.
-Maybe later you could find a right code.
-Now not yet!
+Maybe later on you could find the right code.
+But now not yet!
 
-If you want an early right code, try to move your finghers on keybord and fell craziness will begen in your head!
-This is a good way to develop a nice code or begen a crazy programmer!
+If you want an early right code, try to move your fingers on keyboard and fell craziness in your head!
+This is a good way to develop a nice code or become a crazy programmer!
 
 Good Luck, Programmer!
 
-You must a good programmer and you must proud of your wrongs
+You must be a good programmer and you must be proud of your mistakes
 */
 
 // DELETE
