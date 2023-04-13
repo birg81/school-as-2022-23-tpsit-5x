@@ -1,6 +1,6 @@
 'use strict';
 // reload data and write on your page the data from remote server
-const people = async () => {
+const people = async () =>
 	document.querySelector('#buddylist').innerHTML = (await personList()).map( p =>
 		`
 		<tr>
@@ -11,7 +11,6 @@ const people = async () => {
 		</tr>
 		`
 	).join('');
-};
 
 // CREATE
 const addPerson = async () => {
