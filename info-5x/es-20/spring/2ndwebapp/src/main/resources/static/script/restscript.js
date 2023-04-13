@@ -1,9 +1,5 @@
 'use strict';
-const personList = async () => await fetch('./api/people')
-	.then(res => res.json())
-	.catch(e => console.err(e))
-	.then(j => j.length === 0 ? j : j.sort((p1, p2) => (p1.lastname > p2.lastname) ? 1 : -1));
-
+// reload data and write on your page the data from remote server
 const people = async () => {
 	document.querySelector('#buddylist').innerHTML = (await personList()).map( p =>
 		`
@@ -16,14 +12,8 @@ const people = async () => {
 		`
 	).join('');
 };
-const removePerson = async (id = -1) => {
-	const res = await fetch(`./api/people/${id}`, {method: 'DELETE'})
-		.then(j => j.json())
-		.catch(e => console.err(e))
-		.then(j => console.log(j));
-	if(!res)
-		people();
-};
+
+// CREATE
 const addPerson = async () => {
 	const p = {
 		'firstname': document.querySelector('#firstname_0').value.trim(),
@@ -44,9 +34,25 @@ const addPerson = async () => {
 			})
 			.then(j => j.json())
 			.catch(e => console.error(e));
-		people();	// ricarica la pagina
+		people();	// reload your page and update your data
 	}
 	else {
-		alert('Non hai inserito nulla!');
+		alert('Something is wrong!');
 	}
-}
+};
+
+// READ
+const personList = async () => await fetch('./api/people')
+	.then(res => res.json())
+	.catch(e => console.err(e))
+	.then(j => j.length === 0 ? [] : j.sort((p1, p2) => (p1.lastname > p2.lastname) ? 1 : -1));
+
+// DELETE
+const removePerson = async (id = -1) => {
+	const res = await fetch(`./api/people/${id}`, {method: 'DELETE'})
+		.then(j => j.json())
+		.catch(e => console.err(e))
+		.then(j => console.log(j));
+	if(!res)
+		people();
+};
