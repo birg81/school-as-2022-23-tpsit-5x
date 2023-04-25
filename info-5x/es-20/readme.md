@@ -19,4 +19,4 @@ Personalmente adopero come plug-in [Tabbed Postman - REST Client](https://chrome
 un valido, pratico e versatile strumento disponibile per tutti i Browser Chrome/Chromium compatibili.
 A seguire viene mostrata una schermata tipo, nella quale viene mostrato qualche impostazione peculiare per le applicazioni CRUD:
 
-<img src="./spring/Notes.png"/>
+<img src="./spring/notes.png"/>
