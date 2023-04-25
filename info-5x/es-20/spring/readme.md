@@ -1,6 +1,6 @@
-
 <img src="https://spring.io/favicon.svg" height="48px"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Italy_(Pantone,_2003%E2%80%932006).svg/220px-Flag_of_Italy_(Pantone,_2003%E2%80%932006).svg.png" height="2px" weight="250px">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Italy_(Pantone,_2003%E2%80%932006).svg/220px-Flag_of_Italy_(Pantone,_2003%E2%80%932006).svg.png" height="2px" width="250px">
 
 # Spring
 
@@ -38,13 +38,13 @@ ArrayList<Person> people = new ArrayList<>();
 
 ### Secondo esempio
 
-Per implementare la persistenza dei dati si fa uso di DBMS
+In questo [secondo esempio](./2ndwebapp) si è scelto di implementare la persistenza dei dati si e di far uso di un approccio ORM fa uso di DBMS
 
 <img src="https://labs.mysql.com/common/logos/mysql-logo.svg" height="48px"/>
 
 <img src="https://mariadb.org/wp-content/themes/twentynineteen-child/icons/logo_seal.svg" height="48px"/>
 
-<img src="h2/src/docsrc/images/h2-logo-2.png" height="48px"/>
+<img src="https://github.com/h2database/h2database/blob/master/h2/src/docsrc/images/h2-logo-2.png" height="48px"/>
 
 L'esempio propone l'uso di [MySQL](https://www.mysql.com) (testato sul suo fork [MariaDB](https://mariadb.org) adoperato in [XAMPP](https://www.apachefriends.org)) ma come con opportune modifiche nei file [pom.xml](./2ndwebapp/pom.xml) e [application.properties](./2ndwebapp/src/main/resources/application.properties) è possibile adoperare qualsiasi dbms.
 
