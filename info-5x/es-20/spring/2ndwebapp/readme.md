@@ -9,11 +9,11 @@
 
 **LEGGI FINO ALLA FINE!!!**
 
-In questo esempio viene fatto uso della persistenza dei dati, la quale, a titolo di esempio viene svolta da due db (l'esempio è testato per MySQL/MariaDB e h2database), ma con la giusta configurazione di del file [application.properties](./2ndwebapp/src/main/resources/application.properties) è possibile adoperare un gran numero di altri DB.
+In questo esempio viene fatto uso della persistenza dei dati, la quale, a titolo di esempio viene svolta da due db (l'esempio è testato per MySQL/MariaDB e h2database), ma con la giusta configurazione di del file [application.properties](./src/main/resources/application.properties) è possibile adoperare un gran numero di altri DB.
 
 ## Uso di MySQL/MariaDB
 
-<a href="https://mariadb.org"/><img src="https://mariadb.org/wp-content/themes/twentynineteen-child/icons/logo_seal.svg" height="20px"/></a> Lasciando la configurazione inalterata del file [application.properties](./2ndwebapp/src/main/resources/application.properties) verrà adoperato il DB MySQL/MariaDB adoperato da XAMPP.
+<a href="https://mariadb.org"/><img src="https://mariadb.org/wp-content/themes/twentynineteen-child/icons/logo_seal.svg" height="20px"/></a> Lasciando la configurazione inalterata del file [application.properties](./src/main/resources/application.properties) verrà adoperato il DB MySQL/MariaDB adoperato da XAMPP.
 
 Allo scopo di usare questo **R-DBMS** è importante creare preventivamente il DB PersonDB, ovvero, recandosi nel pannello amministrativo di XAMPP e aver avviato APACHE e MySQL, premere su admin di MySQL quindi cliccare sulla scheda SQL e dare il seguente comando
 ```SQL
@@ -25,7 +25,7 @@ Di seguito, sarà possibile avviare l'applicazione e verificare che la tabella P
 
 <a href="https://github.com/h2database/h2database"><img src="https://github.com/h2database/h2database/blob/master/h2/src/docsrc/images/h2-logo-2.png" height="20px"/></a> L'uso di questo R-DBMS è spesso rilegato per la prototipazione.
 
-Per adoperare questo R-DBMS è necessario in primo luogo modificare il file [pom.xml](./2ndwebapp/pom.xml), disabilitando lo starter relativo a MySQL, ovvero, commentando le righe:
+Per adoperare questo R-DBMS è necessario in primo luogo modificare il file [pom.xml](./pom.xml), disabilitando lo starter relativo a MySQL, ovvero, commentando le righe:
 ```xml
 <dependency>
 	<groupId>com.mysql</groupId>
