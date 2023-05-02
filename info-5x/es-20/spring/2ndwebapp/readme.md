@@ -41,7 +41,7 @@ ed abilitando quindi lo starter relativo ad H2db, ovvero rimuovendo i commenti d
 	<scope>runtime</scope>
 </dependency>
 ```
-Di seguito, è inoltre necessario modificare il file [application.properties](./2ndwebapp/src/main/resources/application.properties) commentando dalla riga 10 alla 18, e decommentare le seguenti righe 19, 21, 22, 24, 25, 27 nel seguente modo
+Di seguito, è inoltre necessario modificare il file [application.properties](./src/main/resources/application.properties) commentando dalla riga 10 alla 18, e decommentare le seguenti righe 19, 21, 22, 24, 25, 27 nel seguente modo
 ```ini
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 spring.datasource.driver-class-name=org.h2.Driver
@@ -73,7 +73,7 @@ con la seguente
 ```ini
 spring.datasource.url=jdbc:h2:file:./src/main/resources/PersonDB
 ```
-dove ```file``` in luogo di ```mem```, sta ad indicare che in seguito al primo avvio, verrà creato nella cartella [/src/main/resources/](./2ndwebapp/src/main/resources/) il file PersonDB.mv.sb contenente il DB con tutte le tabelle popolate; cancellare questo file equivale a cancellare il DB, che verrebbe rigenerato dal SPRING.
+dove ```file``` in luogo di ```mem```, sta ad indicare che in seguito al primo avvio, verrà creato nella cartella [/src/main/resources/](./src/main/resources/) il file PersonDB.mv.sb contenente il DB con tutte le tabelle popolate; cancellare questo file equivale a cancellare il DB, che verrebbe rigenerato dal SPRING.
 
 Infine per accedere alla console web di H2, in maniera analoga a quella precendente, ricordandosi di indicare in corrispondenza di **JDBC URL** la stringa ```jdbc:h2:file:./src/main/resources/PersonDB```.
 
