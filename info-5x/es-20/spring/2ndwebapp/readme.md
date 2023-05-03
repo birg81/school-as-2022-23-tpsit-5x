@@ -9,7 +9,7 @@
 
 **LEGGI FINO ALLA FINE!!!**
 
-In questo esempio viene fatto uso della persistenza dei dati, la quale, a titolo di esempio viene svolta da due db (l'esempio è testato per MySQL/MariaDB e h2database), ma con la giusta configurazione di del file [application.properties](./src/main/resources/application.properties) è possibile adoperare un gran numero di altri DB.
+In questo esempio viene fatto uso della persistenza dei dati, la quale, a titolo di esempio viene svolta da due db (l'esempio è testato per MySQL/MariaDB e h2database), ma con la giusta configurazione dei file [application.properties](./src/main/resources/application.properties) e [pom.xml](./pom.xml) è possibile adoperare un gran numero di altri DBMS.
 
 ## Uso di MySQL/MariaDB
 
