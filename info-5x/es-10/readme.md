@@ -46,7 +46,7 @@ Per le Query si faccia riferimento a questo schema per aiutarsi:
 Avventurieri, sfidate le query con audacia, ma occhio alle trappole nascoste. La saggezza è un tesoro, ma l'eccesso d'orgoglio può condurre alla follia e alla morte. *¡Buena suerte!*
 
 ### Q0
-Selezionare l'ora corrente e il risultato della somma di 6 + 5
+Selezionare il risultato della seguente operazione ```6 + 5```
 
 ### Q1
 Elencare Nome e Cognome degli Attori dalla Tabella Attori.
