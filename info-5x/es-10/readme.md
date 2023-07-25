@@ -43,6 +43,8 @@ Per le Query si faccia riferimento a questo schema per aiutarsi:
 
 ## Lista Query
 
+Avventurieri, sfidate le query con audacia, ma occhio alle trappole nascoste. La saggezza è un tesoro, ma l'eccesso d'orgoglio può condurre alla follia e alla morte. *¡Buena suerte!*
+
 ### Q0
 Selezionare l'ora corrente e il risultato della somma di 6 + 5
 
@@ -77,7 +79,7 @@ Ripetere la Q6 filtrando gli attori che hanno un nome od il cognome che contiene
 <img align="left" src="https://ilpost-media-production.ilpost.it/wp-content/uploads/2016/05/blu.jpg" height="2px" width="97%" />
 
 
-<img align="right" src="https://t4.ftcdn.net/jpg/01/96/75/59/240_F_196755933_6T0jRKuPz4zdKMNtn6WCzaA1TbmpJuRG.jpg" height="75px" />
+<img align="right" src="https://t4.ftcdn.net/jpg/01/96/75/59/240_F_196755933_6T0jRKuPz4zdKMNtn6WCzaA1TbmpJuRG.jpg" height="100px" />
 
 ### CABALLERO:
 Se sei arrivato fino a qui o se hai svolto almeno 10 query puoi auto riconoscerti il grado di **Caballero**
@@ -131,7 +133,7 @@ Dividendo gli attori in gruppi sulla base del cognome, visualizzare i gruppi e i
 
 ### CABALLERO BAILANTE
 
-<img align="right" src="https://t3.ftcdn.net/jpg/01/36/15/92/360_F_136159254_4B59C8Lm85A8uIMqyAXaeb5Rwrr0LTmF.webp" height="75px" />
+<img align="right" src="https://t3.ftcdn.net/jpg/01/36/15/92/360_F_136159254_4B59C8Lm85A8uIMqyAXaeb5Rwrr0LTmF.webp" height="100px" />
 
 Sembrerebbe che ci stai prendendo gusto!
 
@@ -195,7 +197,7 @@ In riferimento alla Q27 raggrupparli per paese e città contando il numero di in
 
 
 
-<img align="right" src="https://us.123rf.com/450wm/yupiramos/yupiramos1904/yupiramos190438645/122872876-mexican-hat-with-mustache-design-vector-illustration.jpg?ver=6" height="100px" />
+<img align="right" src="https://us.123rf.com/450wm/yupiramos/yupiramos1904/yupiramos190438645/122872876-mexican-hat-with-mustache-design-vector-illustration.jpg?ver=6" height="130px" />
 
 ### CABALLERO LOCO
 
@@ -249,7 +251,7 @@ Determinare i titoli dei film che hanno una durata superiore alla media
 
 ### CABALLERO DE LA MUERTE
 
-Alla fine sei ce l'hai fatta, hai conculo anche l'ultima query!
+Alla fine ce l'hai fatta! Hai concluso anche l'ultima query!
 
 <img align="left" src="https://em-content.zobj.net/thumbs/120/facebook/65/flag-for-mexico_1f1f2-1f1fd.png" height="50px" />
 
