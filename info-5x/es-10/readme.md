@@ -81,7 +81,7 @@ Ripetere la Q6 filtrando gli attori che hanno un nome od il cognome che contiene
 
 <img align="right" src="https://t4.ftcdn.net/jpg/01/96/75/59/240_F_196755933_6T0jRKuPz4zdKMNtn6WCzaA1TbmpJuRG.jpg" height="100px" />
 
-### CABALLERO:
+### CABALLERO
 Se sei arrivato fino a qui o se hai svolto almeno 10 query puoi auto riconoscerti il grado di **Caballero**
 
 
